@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
+import MarsData from "./components/DataHandler"
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      
+      <h1>NASA Presents...</h1>
+      <MarsData />
+
+      
     </div>
   );
 }
